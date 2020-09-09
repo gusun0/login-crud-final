@@ -30,35 +30,6 @@
 
 </v-form>
 
-<v-form
-  ref="form"
-  lazy-validation
-  v-if="!agregaFru"
->
-  <v-text-field
-    v-model="nombre"
-    label="nombre de fruta"
-    required
-  ></v-text-field>
-
-  <v-text-field
-    v-model="cantidad"
-    :type="number"
-    label="cantida de frutas"
-    required
-  ></v-text-field>
-
-  <v-btn
-    color="primary"
-    class="mr-4"
-    @click.prevent="editarT"
-  >
-  EDITAR
-  </v-btn>
-
-</v-form>
-
-
 <br><br>
 
 
